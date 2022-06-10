@@ -1,0 +1,60 @@
+<%- include ("header.ejs") %>
+
+  <body background="Images/index.jpg">
+
+    <section class="vh-85">
+
+      <div class="container py-2 h-100 sc">
+        <div class="row d-flex justify-content-center align-items-center h-100">
+          <div class="col col-xl-5">
+            <div class="card" style="border-radius: 15px;">
+              <div class="card-body p-5">
+
+                <form action="/" class="d-flex justify-content-center align-items-center mb-4" method="post">
+                  <div class="form-outline flex-fill">
+                    <input name="input" type="text" id="form3" class="form-control kk form-control-lg"
+                      placeholder="Type here..." />
+                    <!-- <label class="form-label" for="form3">What do you need to do today?</label> -->
+                  </div>
+                  <button type="submit" class="btn xa1 btn-primary btn-lg ms-2">Add</button>
+                </form>
+                <ul class="list-group mb-0">
+                  <li
+                    class="list-group-item d-flex justify-content-between align-items-center border-start-0 border-top-0 border-end-0 border-bottom rounded-0 mb-2">
+                    <div class=" fun align-items-center">
+
+                      <% data.forEach(function (blog) { %>
+                        <form action="/deleteindex" method="post">
+                          <div class="box1">
+
+                            <input name="opa" class="form-check-input me-2 cll" type="checkbox" value=""
+                              aria-label="..." />
+                            <p>
+                              <%= blog.message %>
+                            </p> <button name=opa class="fabutton" type="submit"
+                            value=<%=blog._id %> >
+                            <i class="fas fa-times text-primary"></i>
+                        </button>
+                          </div>
+                        </form>
+                        <% }) %>
+                    </div>
+                  </li>
+
+
+              </div>
+
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      </div>
+    </section>
+   
+  </body>
+  <%- include("footer.ejs") %>
+  </html>
+
+
+ 

@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Overpass&display=swap');
+
+.navbar-brand {
+    font-family: 'Overpass', sans-serif;
+    margin: 5px 10px 5px 35px;
+}
+
+.chng {
+    margin-right: 800px;
+}
+
+.body {
+    width: 1250px;
+    height: 80vh;
+}
+
+.vh-85 {
+    width: 1350px;
+    height: 80vh;
+}
+
+.footerd {
+    text-decoration: none;
+}
+
+.impf {
+    position: static;
+
+    margin: 0;
+    background-color: white;
+    height: 1vh;
+    padding: 0;
+}
+
+#navbarTogglerDemo03 {
+    font-family: 'Overpass', sans-serif;
+}
+
+.ftr {
+    width: 850px;
+    margin-top: 10rem;
+    margin-left: 27rem;
+    text-align: center;
+    align-items: center;
+    vertical-align: middle;
+    color: rgb(17, 113, 193);
+
+    height: 50vh;
+}
+
+.cntct {
+    width: 850px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    color: rgb(17, 113, 193);
+
+    height: 50vh;
+
+}
+
+.yg {
+    padding: 10px 10px 10px 10px;
+    width: 400px;
+    font-weight: bolder;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(65, 152, 156);
+}
+
+.hj {
+    padding: 10px 10px 10px 10px;
+    font-weight: bolder;
+    margin-left: 28rem;
+    margin-top: 10rem;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(65, 152, 156);
+}
+
+.hme {
+    width: 1350px;
+
+
+    height: 80vh;
+
+}
+
+.sch {
+    width: 1350px;
+    color: white;
+
+    height: 80vh;
+}
+
+.wrk {
+    width: 1350px;
+    color: white;
+
+    height: 80vh;
+}
+
+.clm {
+    display: inline-block;
+}
+
+.cll {
+    display: inline-block;
+}
+
+.box1 {
+    display: block;
+}
+
+.box2 {
+    display: block;
+}
+
+input:checked+p {
+    text-decoration: line-through;
+    text-decoration-color: #0c021c;
+}
+
+p {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+
+.fabutton {
+    background: none;
+    border: none;
+}
+
+.twt {
+    text-decoration: none;
+}
+
+.nav-item {
+    font-family: 'Overpass', sans-serif;
+}
+
+.bx {
+    margin-right: 600px;
+}
+
+.ap {
+    margin: 0;
+    font-family: 'Overpass', sans-serif;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-weight: bolder;
+    font-size: larger;
+    color: rgb(65, 152, 156);
+    ;
+}
+
+.box {
+    width: auto;
+}
+
+#nav {
+    margin: 0;
+    padding: 0;
+    width: 1350px;
+
+
+    height: 1vh;
+}
+
+.fas{margin-left: 50px;}
+.card{line-height: 0;}
+@media screen and (max-width:600px) {
+    .vh-85 {
+        width: 300px;
+        height: 410px;
+    }
+
+    .col-xl-5 {
+        width: 2rem;
+        height: 5rem;
+    }
+    .fas{
+        margin-left: 10px;
+    }
+    .p5 {
+        padding: a0;
+        width: 10rem;
+        height: 1rem;
+    }
+
+    .xa1 {
+        position: relative;
+        bottom: 40px;
+        left: 10px;
+    }
+
+    .card {
+        width: 200px;
+        position: absolute;
+        left: 115px;
+        bottom: 100px;
+        align-items: center;
+        text-align: center;
+        height: 200px;
+    }
+
+    .kk {height: 40px;
+        position: relative;
+        bottom: 40px;
+        margin: 0;
+        max-width: 100%;
+        font-size: smaller;
+    }
+    .fun{border: none;
+        position: absolute;
+        bottom: px;
+    }
+    .hj{position: absolute;
+        width: 200px;
+        height: 100px;
+        right: 20px;
+        margin-right: 100px;
+    }
+}
