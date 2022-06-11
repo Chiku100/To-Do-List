@@ -139,4 +139,4 @@ app.post("/deleteoffice",function(req,res){
 
 
 
-app.listen(3000, function () { console.log("server is live") })
+app.listen(PORT=process.env.PORT||3000, function () { console.log("server is live") })
