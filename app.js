@@ -1,7 +1,7 @@
 const express = require("express");
 const bodyparser = require("body-parser");
 const mongoose = require("mongoose");
-mongoose.connect('mongodb://localhost:27017/mytoDB');
+mongoose.connect('mongodb+srv://chikuptdl:xRhrNAFcA87MyVRq@cluster0.nbgwu.mongodb.net/mytoDB');
 const app = express();
 const ejs = require("ejs")
 app.use(bodyparser.urlencoded({ extended: true }));
